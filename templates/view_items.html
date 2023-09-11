@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Grocery Items</title>
+</head>
+<body>
+    <h1>Grocery Inventory</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        {{range .}}
+        <tr>
+            <td>{{.ID}}</td>
+            <td>{{.Name}}</td>
+            <td>{{.Price}}</td>
+        </tr>
+        {{end}}
+    </table>
+    <br>
+    <a href="/add">Add Item</a>
+</body>
+</html>
