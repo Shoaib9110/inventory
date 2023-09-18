@@ -20,4 +20,4 @@ The application will be available at http://localhost:8080.
 ## API Endpoints
 
 - **POST http://localhost:8080/add**: Add a grocery item to the inventory.
-- **GET http://localhost:8080/get**: Retrieve all grocery items in the inventory.
+- **GET http://localhost:8080/view**: Retrieve all grocery items in the inventory.
